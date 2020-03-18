@@ -1,5 +1,7 @@
 # TeX2e's Notebooks
 
+機械学習に関する自学用ノートの一覧
+
 ## Installation
 
 To use this, first install Jupyter (note: Python must be installed)
