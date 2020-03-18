@@ -12,6 +12,8 @@ pip install jupyter
 
 ## Build
 
+Convert from xxx.ipynb to xxx.html and create index.html
+
 ```bash
 make
 ```
