@@ -18,6 +18,12 @@ Convert from xxx.ipynb to xxx.html and create index.html
 make
 ```
 
+## Exec
+
+```bash
+jupyter notebook
+```
+
 ## Notebooks
 
 Kaggleの場合は、Kernelで作業しているときは、Commitして「Open Version」をクリックするとNotebooksのページが開くので、右上の設定から「Download code」を選択する。
