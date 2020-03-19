@@ -11,7 +11,7 @@ rename: FORCE
 	jupyter nbconvert --to html $^
 
 index.html: FORCE
-	find notebooks -type f -name '*.html' | sort | xargs -I{} echo '<li><a href="{}">{}</a></li>' > index.html
+	find notebooks -type f -name '*.html' -not -path "*/.ipynb_checkpoints/*" | sort | xargs -I{} echo '<li><a href="{}">{}</a></li>' > index.html
 
 FORCE:
 .PHONY: FORCE
